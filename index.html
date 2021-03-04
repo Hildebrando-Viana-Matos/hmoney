@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <header>H MONEY</header>
+
+    <main>
+        <section class="panel">
+            <div class="container">
+                <div class="box-panel">
+                    <div class="desc-box entrada">
+                        <p>Entrada</p>
+                        <i class="fas fa-arrow-circle-up"></i>
+                    </div>
+                    <span id="incomeDisplay" class="valor">R$ 0,00</span>
+                </div>
+                <div class="box-panel">
+                    <div class="desc-box saida">
+                        <p>Saída</p>
+                        <i class="fas fa-arrow-circle-down"></i>
+                    </div>
+                    <span id="expenseDisplay" class="valor">R$ 0,00</span>
+                </div>
+                <div class="box-panel">
+                    <div class="desc-box total">
+                        <p>Total</p>
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <span id="totalDisplay" class="valor">R$ 0,00</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="transactions">
+            <div class="container">
+                <h2 class="sr-only">Transações</h2>
+
+                <a onclick="Modal.open()" href="#">+ Nova Transação</a>
+                <table id="data-table">
+                    <thead>
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Valor</th>
+                            <th>Data</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="investments">
+            <div class="container">
+                <h1>Investimentos em Fundos Imobiliários</h1>
+                <p>Se com esse total de dinheiro você investir 30% (<span id="total_thiry">R$ 0,00</span>) durante 12 meses, comprando <span id="cota_value">0</span> cotas de Fundos Imobiliários valendo R$ 57,90 cada cota durante todos os meses, e que rendam em média R$ 0,50 ao mês...</p>
+                <div class="content">
+                    <div class="investments-box">
+                        <span>No final desses 12 meses sem investir você terá:</span>
+                        <div class="value"><p id="value_year">R$ 0,00</p></div>
+                    </div>
+                    <div class="investments-box">
+                        <span>No final desses 12 meses investindo você terá APROXIMADAMENTE:</span>
+                        <div class="value-total"><p id="total_year_inves">R$ 0,00</p></div>
+                    </div>
+                </div>
+                <p>Atualize a página por garantia!!!!</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <div id="form">
+                <h2>Nova Transação</h2>
+                <form action="" onsubmit="Form.submit(event)">
+                    <div class="input-group">
+                        <label class="sr-only" for="description">Descrição</label>
+                        <input type="text" name="description" id="description" placeholder="Descrição">
+                    </div>
+
+                    <div class="input-group">
+                        <label class="sr-only" for="amount">Valor</label>
+                        <input type="number" step="0.01" name="amount" id="amount" placeholder="0,00">
+                        <small class="help">Use o sinal "-" (negativo) para despesas e "," para casas decimais</small>
+                    </div>
+
+                    <div class="input-group">
+                        <label class="sr-only" for="date">Data</label>
+                        <input type="date" name="date" id="date" placeholder="01/01/2021">
+                    </div>
+
+                    <div class="input-group actions">
+                        <a onclick="Modal.close()" href="#" class="button cancel">Cancelar</a>
+                        <button>Salvar</button>
+                    </div>
+                </form> 
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h2>H MONEY</h2>
+        <p>Todos os direitos reservados ao Hildebrando Viana Matos</p>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
