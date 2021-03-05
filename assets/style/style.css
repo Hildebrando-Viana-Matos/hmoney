@@ -369,7 +369,7 @@ footer {
 }
 
 @media (max-width: 1190px) {
-  .investments .container {
+  .content {
     flex-direction: column;
     justify-content: center;
   }
