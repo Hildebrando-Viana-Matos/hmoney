@@ -1,4 +1,4 @@
- <a href="https://github.com/Hildebrando-Viana-Matos/project_discover_dev_finance_hildo">
+ <a href="https://github.com/Hildebrando-Viana-Matos/hpoup">
     <img align="center" src="https://github.com/Hildebrando-Viana-Matos/hpoup/blob/main/assets/img/readme-img.png" alt="banner H POUP">
  </a>
  
@@ -17,7 +17,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -26,7 +25,7 @@
 <hr>
 
 ## About The Project
-<p>Welcome to my project carried out at the Rocketseat Discover event with the aim of organizing your money :money_with_wings: in the month or week. :green_heart:</p>
+<p>Welcome to the money organization website. On this site you can organize your money and stimulate your investments in "Fundo Imobiliarios"</p>
 
 ### Built With
 I used some web technologies in order to train:mortar_board::
@@ -35,17 +34,13 @@ I used some web technologies in order to train:mortar_board::
 * JavaScript
 
 ## Getting Started
-It is so simple to install and run this project on your local machine, but you can just go to this [link](https://hildebrando-viana-matos.github.io/project_discover_dev_finance_hildo/.)
+It is so simple to install and run this project on your local machine, but you can just go to this [link](https://hildebrando-viana-matos.github.io/hpoup/.)
 ### Installation
 1. Clone the repository
    ```sh
-   git clone git@github.com:Hildebrando-Viana-Matos/project_discover_dev_finance_hildo.git
+   git clone git@github.com:Hildebrando-Viana-Matos/hpoup.git
    ```
 2. Go to your File Explorer and find the index.html file, then open your code editor or click on your browser icon
-
-## Usage
-
-Imagine organizing your financial life on a website? Yes, that is the purpose of this website, you can organize and plan your money simply and quickly.
 
 ## Contributing
 
@@ -61,4 +56,4 @@ You want contribute of this object????:scream: GREAT!!!!:heart_eyes::heart_eyes:
 
 Hildebrando Viana Matos - [@hildovm](https://www.instagram.com/hildovm/) - hildocontato@gmail.com
 
-Project Link: [https://hildebrando-viana-matos.github.io/project_discover_dev_finance_hildo/.](https://hildebrando-viana-matos.github.io/project_discover_dev_finance_hildo/.)
+Project Link: [https://hildebrando-viana-matos.github.io/hpoup/.](https://hildebrando-viana-matos.github.io/hpoup/.)
